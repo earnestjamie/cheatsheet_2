@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header.container {
+  display:  flex;
+  margin: 0 100px;
+  padding: 20px 0px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px 20px;
+  border: 1px solid grey;
+  margin: 10px 100px;
+  padding: 10px 10px;
+ 
+}
+
+.container h2 {
+  flex-basis: 100%;
+}
+
+div.cool_blue {
+  
+  width: 150px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+div.pink {
+ 
+  width: 150px;
+  height: 100px;
+  background-color: pink;
+}
+
+div.mint_green {
+
+  width: 150px;
+  height: 100px;
+  background-color: moccasin;
+}
+
+div.beige {
+
+  width: 150px;
+  height: 100px;
+  background-color: beige;
+}
+
+div.yellow {
+ 
+  width: 150px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.source_code_pro h3, .nunito_sans h3, .poppins h3 {
+  text-decoration: underline;
+}
+
+.source_code_pro {
+  font-family: "Source Code Pro";
+}
+
+.source_code_pro .bold{
+  font-weight: 700;
+}
+
+.source_code_pro .italic{
+  font-style: italic;
+}
+
+.nunito_sans {
+  font-family: "Nunito Sans";
+}
+
+.nunito_sans .bold{
+  font-weight: 700;
+}
+
+.nunito_sans .italic{
+  font-style: italic;
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.poppins .bold{
+  font-weight: 700;
+}
+
+.poppins .italic{
+  font-style: italic;
+}
+
+.container h1, .par{
+  flex-basis: 100%;
+}
+
+.container ul {
+  margin-left: 30px;
+}
